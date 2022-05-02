@@ -1,0 +1,17 @@
+Salesperson <- Dealership -> Service History
+
+Salesperson -> Car *one to many
+
+Car
+
+Customer -> Car *one to many
+
+Salesperson <- Invoice -> Customer *one to one to one
+
+Service facility
+
+Service ticket -> car *one to one
+
+Mechanic -> mechanic_car -> Car *many to many 
+
+Parts -> mechanic 
